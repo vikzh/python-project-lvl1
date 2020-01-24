@@ -8,7 +8,7 @@ def main():
 
 def make_question_and_answer():
     question = randrange(100)
-    right_answer = 'yes' if question % 2 is 0 else 'no'
+    right_answer = 'yes' if question % 2 == 0 else 'no'
     return question, right_answer
 
 
