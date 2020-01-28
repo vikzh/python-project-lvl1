@@ -9,7 +9,8 @@ def game(title, get_question_and_right_answer):
 
     while wins < games_to_win:
         (question, right_answer) = get_question_and_right_answer()
-        user_answer = string('Question: {}'.format(question))
+        print('Question: {}'.format(question))
+        user_answer = string('Your answer: ')
         if user_answer == right_answer:
             print('Correct!')
             wins += 1
