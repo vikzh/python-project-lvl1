@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from brain_games.scripts.game_engine import game
 from random import choice
 from random import randrange

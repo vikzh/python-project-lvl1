@@ -1,10 +1,10 @@
 [tool.poetry]
 name = "vikzh_brain_games"
-version = "0.5.0"
+version = "0.5.2"
 description = "cli game"
 authors = ["vikzh <vikt.anmail@gmail.com>"]
 classifiers = [
-    "Topic :: Software Development :: CLI App"
+    "Topic :: Programming Language :: Python"
 ]
 repository = "https://github.com/vikzh/python-project-lvl1"
 packages = [
