@@ -1,9 +1,11 @@
 from brain_games.scripts.game_engine import game
 from random import randrange
 
+TITLE = 'What number is missing in the progression?'
+
 
 def main():
-    game(make_question_and_answer)
+    game(TITLE, make_question_and_answer)
 
 
 def make_question_and_answer():

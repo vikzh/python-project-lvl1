@@ -2,9 +2,11 @@ from brain_games.scripts.game_engine import game
 from random import choice
 from random import randrange
 
+TITLE = 'What is the result of the expression?'
+
 
 def main():
-    game(make_question_and_answer)
+    game(TITLE, make_question_and_answer)
 
 
 def make_question_and_answer():

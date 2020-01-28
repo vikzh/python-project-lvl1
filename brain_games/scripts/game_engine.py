@@ -2,9 +2,9 @@ from brain_games.cli import welcome_user
 from prompt import string
 
 
-def game(get_question_and_right_answer):
+def game(title, get_question_and_right_answer):
     games_to_win = 3
-    name = welcome_user()
+    name = welcome_user(title)
     wins = 0
 
     while wins < games_to_win:
