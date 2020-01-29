@@ -4,7 +4,7 @@ version = "0.5.2"
 description = "cli game"
 authors = ["vikzh <vikt.anmail@gmail.com>"]
 classifiers = [
-    "Topic :: Programming Language :: Python"
+    "Topic :: Software Development :: Libraries :: Python Modules"
 ]
 repository = "https://github.com/vikzh/python-project-lvl1"
 packages = [

@@ -3,9 +3,11 @@ from brain_games.scripts.game_engine import game
 from random import randrange
 from math import sqrt
 
+TITLE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def main():
-    game(make_question_and_answer)
+    game(TITLE, make_question_and_answer)
 
 
 def make_question_and_answer():
