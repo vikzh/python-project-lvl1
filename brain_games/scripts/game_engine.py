@@ -12,13 +12,12 @@ def game(title, get_question_and_right_answer):
         (question, right_answer) = get_question_and_right_answer()
         print('Question: {}'.format(question))
         user_answer = string('Your answer: ')
-        if user_answer == right_answer:
-            print('Correct!')
-            wins += 1
-        else:
+        if not (user_answer == right_answer):
             print('{} is wrong answer ;(. Correct answer was {}'
                   .format(user_answer, right_answer))
             print('Lets try again, {}!'.format(name))
             return
+        print('Correct!')
+        wins += 1
 
     print('Congratulations, {}'.format(name))
