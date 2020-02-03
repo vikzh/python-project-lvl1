@@ -21,3 +21,7 @@ def game(title, get_question_and_right_answer):
         wins += 1
 
     print('Congratulations, {}'.format(name))
+
+
+def run(module):
+    game(module.TITLE, module.make_question_and_answer)
