@@ -1,13 +1,14 @@
 from brain_games.cli import welcome_user
 from prompt import string
 
+GAMES_TO_WIN = 3
+
 
 def game(title, get_question_and_right_answer):
-    games_to_win = 3
     name = welcome_user(title)
     wins = 0
 
-    while wins < games_to_win:
+    while wins < GAMES_TO_WIN:
         (question, right_answer) = get_question_and_right_answer()
         print('Question: {}'.format(question))
         user_answer = string('Your answer: ')
