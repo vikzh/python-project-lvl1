@@ -5,12 +5,12 @@ from operator import sub
 from operator import mul
 
 TITLE = 'What is the result of the expression?'
+OPERATIONS = [('+', add), ('-', sub), ('*', mul)]
 
 
 def make_question_and_answer():
     random_range = 100
-    operations = [('+', add), ('-', sub), ('*', mul)]
-    random_operation_symbol, random_operation = choice(operations)
+    random_operation_symbol, random_operation = choice(OPERATIONS)
     first_num = randrange(random_range)
     second_num = randrange(random_range)
     question = '{} {} {}'.format(first_num,
