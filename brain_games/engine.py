@@ -5,7 +5,8 @@ GAMES_TO_WIN = 3
 
 
 def game(module):
-    title, get_question_and_right_answer = module.TITLE, module.make_question_and_answer
+    title, get_question_and_right_answer = module.TITLE,\
+                                           module.make_question_and_answer
     name = welcome_user(title)
     wins = 0
 
