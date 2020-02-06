@@ -4,4 +4,4 @@ from brain_games.games import even
 
 
 def main():
-    engine.run(even)
+    engine.game(even)

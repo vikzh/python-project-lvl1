@@ -4,4 +4,4 @@ from brain_games.games import calc
 
 
 def main():
-    engine.run(calc)
+    engine.game(calc)

@@ -4,4 +4,4 @@ from brain_games.games import prime
 
 
 def main():
-    engine.run(prime)
+    engine.game(prime)

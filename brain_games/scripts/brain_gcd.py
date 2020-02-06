@@ -4,4 +4,4 @@ from brain_games.games import gcd
 
 
 def main():
-    engine.run(gcd)
+    engine.game(gcd)
